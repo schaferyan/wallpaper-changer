@@ -1,0 +1,31 @@
+{
+  "name": "wallpaper-changer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "set your desktop wallpaper to a randomized image",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wallpaper-changer"
+  },
+  "keywords": [
+    "node.js",
+    "google",
+    "images",
+    "serpapi",
+    "wallpaper"
+  ],
+  "author": "Ryan Schafer",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.2.0",
+    "dotenv": "^16.0.3",
+    "image-downloader": "^4.3.0",
+    "serpapi": "^1.1.1",
+    "wallpaper": "^6.1.1"
+  }
+}
