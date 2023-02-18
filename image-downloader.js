@@ -4,7 +4,7 @@ export async function downloadImg(url){
     
 const options = {
   url,
-  dest: '/home/schaferyan/git/wallpaper-changer/img',   
+  dest: 'C:\\Users\\schaf\\git-repos\\wallpaper-changer\\img',   
 };
 let img;
 await download.image(options)
