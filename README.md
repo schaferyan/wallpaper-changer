@@ -39,13 +39,12 @@ Add a start script for convenience if it is not already there:
 `npm install serpapi dotenv wallpaper cron image-downloader`
 
 
-If you haven’t already signed up for a free Serpapi account go ahead and do that now by visiting https://serpapi.com/users/sign_up and completing the signup process.
+4. If you haven’t already signed up for a free Serpapi account go ahead and do that now by visiting https://serpapi.com/users/sign_up and completing the signup process.
 
-Once you have signed up, verified your email, and selected a plan, navigate to https://serpapi.com/manage-api-key . Click the Clipboard icon to copy your API key. 
-
-Then create a new file in your project directory called ‘.env’ and add the following line: 
+5. Once you have signed up, verified your email, and selected a plan, navigate to https://serpapi.com/manage-api-key . Click the Clipboard icon to copy your API key. Then create a new file in your project directory called ‘.env’ and add the following line: 
 
 `SERPAPI_KEY = “PASTE_YOUR_API_KEY_HERE”"YOUR_KEY_HERE"`
+
 
 You should now be able to run the script by typing `npm start` in your terminal.
 
