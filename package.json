@@ -22,9 +22,9 @@
   "author": "Ryan Schafer",
   "license": "ISC",
   "dependencies": {
-    "cron": "^2.2.0",
     "dotenv": "^16.0.3",
     "image-downloader": "^4.3.0",
+    "node-schedule": "^2.1.1",
     "serpapi": "^1.1.1",
     "wallpaper": "^6.1.1"
   }
