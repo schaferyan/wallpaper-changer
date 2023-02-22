@@ -1,19 +1,25 @@
 import * as download from "image-downloader"
 
 export async function downloadImg(url){
-    
-const options = {
+
+  //specify a url and the path to where you want to store the image
+const options = { 
   url,
-  dest: 'C:\\Users\\schaf\\git-repos\\wallpaper-changer\\img',   
+  dest: process.env.PATH_TO_IMG   
 };
+
 let img;
-await download.image(options)
+
+// download the image
+await download.image(options) 
   .then(({ filename }) => {
     console.log('Saved to', filename);
     img = filename.toString();
   })
   .catch((err) => console.error(err))
-return img;  
+
+// return the filename so we can find the image later   
+return img; 
   
 }
 
