@@ -41,11 +41,11 @@ Add a start script for convenience if it is not already there:
 
 4. If you haven’t already signed up for a free Serpapi account go ahead and do that now by visiting https://serpapi.com/users/sign_up and completing the signup process.
 
-5. Once you have signed up, verified your email, and selected a plan, navigate to https://serpapi.com/manage-api-key . Click the Clipboard icon to copy your API key. Then create a new file in your project directory called ‘.env’ and add the following line: 
+5. Once you have signed up, verified your email, and selected a plan, navigate to https://serpapi.com/manage-api-key . Click the Clipboard icon to copy your API key. Then create a new file in your project directory called ‘.env’ and add the following lines: 
 
-`SERPAPI_KEY = “PASTE_YOUR_API_KEY_HERE”"YOUR_KEY_HERE"`
-
+`SERPAPI_KEY = “PASTE_YOUR_API_KEY_HERE"`
+PATH_TO_IMG='path to a directory where you want to save images'
 
 You should now be able to run the script by typing `npm start` in your terminal.
 
-You should see your desktop wallpaper change.
+You should see your desktop wallpaper change every minute.
