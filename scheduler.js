@@ -12,6 +12,6 @@ export async function scheduleJob(callback, time){
     // copy the properties from the time object to the RecurrenceRule instance
     Object.assign(rule, time); 
     
-    // schedule the job
+    // schedule the jobF
     schedule.scheduleJob(rule, callback); 
 }
