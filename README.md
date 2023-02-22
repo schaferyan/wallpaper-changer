@@ -14,7 +14,7 @@ You will also need to sign up for a free Serpapi account at https://serpapi.com/
 1. Clone this repository.
 
 
-2. Run `npm init` if you haven't already. Make sure your package.json includes the line type="module":
+2. Run `npm init` if you haven't already. Make sure your package.json includes the line `"type":"module"`:
 
 ```
 {
@@ -36,7 +36,7 @@ Add a start script for convenience if it is not already there:
   
 3. Install the dependencies:
 
-`npm install serpapi dotenv wallpaper cron image-downloader`
+`npm install serpapi dotenv wallpaper node-schedule image-downloader write-json-file`
 
 
 4. If you haven’t already signed up for a free Serpapi account go ahead and do that now by visiting https://serpapi.com/users/sign_up and completing the signup process.
