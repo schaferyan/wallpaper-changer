@@ -2,7 +2,6 @@ import { getImageUrls } from "./image-search.js";
 import { downloadImg } from "./image-downloader.js";
 import { getWallpaper, setWallpaper } from "wallpaper";
 import { writeJsonFile } from "write-json-file";
-// import savedUrls from './image-urls.json' assert { type: 'json' };
 import { readFile } from "fs/promises";
 import { existsSync } from "fs";
 
@@ -36,10 +35,11 @@ export async function changePaper(q, chips) {
   // set desktop wallpaper
   try{
     await setWallpaper(img);
+    console.log("Set wallpaper to: " + urls[randInt]["title"]);
   }catch(e){
     console.log("e");
   }
 
-  // const wallpaper = await getWallpaper();
-  // console.log(wallpaper);
+  const wallpaper = await getWallpaper();
+  console.log(wallpaper);
 }
